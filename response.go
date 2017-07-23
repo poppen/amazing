@@ -79,9 +79,14 @@ type AmazonEditorialReview struct {
 type AmazonItemAtributes AmazonItemAttributes
 
 type AmazonItemAttributes struct {
-	Title     string
-	Brand     string
-	ListPrice AmazonItemPrice
+	Title        string
+	Brand        string
+	ListPrice    AmazonItemPrice
+	Creator      string
+	ReleaseDate  string
+	Publisher    string
+	Studio       string
+	Manufacturer string
 }
 
 type AmazonItemOfferSummary struct {
