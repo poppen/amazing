@@ -85,6 +85,7 @@ type AmazonItemAttributes struct {
 	ListPrice    AmazonItemPrice
 	Creator      string
 	ReleaseDate  string
+	ProductGroup string
 	Publisher    string
 	Studio       string
 	Manufacturer string
